@@ -1,7 +1,7 @@
 * {
-  font-family: 'Roboto Slab', serif;
+  font-family: "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
   font-size: 18px;
-  color: #A5D8FF; }
+  color: #004777; }
 
 h1 {
   font-family: 'Galada', cursive;
@@ -69,6 +69,7 @@ html, body {
   width: 60%;
   margin-bottom: 50px; }
   .nav ul {
+    padding-left: 0px;
     list-style: none; }
     @media only screen and (min-width: 825px) {
       .nav ul {
@@ -91,6 +92,9 @@ html, body {
   padding: 15px;
   width: 75%;
   margin-bottom: 50px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
   border-radius: 10px; }
   .post .blog-title {
     margin: 0px; }

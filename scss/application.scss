@@ -1,4 +1,4 @@
-
+@import '../bourbon/bourbon';
 @import 'components/index';
 @import 'base/index';
 @import 'layout/index';
@@ -16,6 +16,7 @@
       display: flex;
       justify-content: space-around;
     }
+    padding-left: 0px;
     list-style: none;
   }
   a {
@@ -25,6 +26,7 @@
     color: $neutral-light;
   }
   li {
+
     @media only screen and (max-width: 824px) {
       text-align: center;
     }
@@ -42,7 +44,7 @@
   width: 75%;
   @extend %center;
   margin-bottom: 50px;
-  border-radius: 10px;
+  @include border-radius(10px);
   .blog-title {
     margin: 0px;
   }
