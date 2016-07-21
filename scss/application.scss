@@ -13,8 +13,10 @@
   margin-right: auto;
   margin-bottom: 50px;
   ul {
-    display: flex;
-    justify-content: space-around;
+    @media only screen and (min-width: 825px) {
+      display: flex;
+      justify-content: space-around;
+    }
     list-style: none;
   }
   a {
@@ -24,8 +26,13 @@
     color: $neutral-light;
   }
   li {
+    @media only screen and (max-width: 824px) {
+      text-align: center;
+    }
+
+    @media only screen and (min-width: 825px) {
     display: inline;
-    width: calc(20% - 10px);
+    }
   }
 }
 

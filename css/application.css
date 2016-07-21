@@ -47,6 +47,16 @@ body {
   background-image: url("./../img/stones.jpg");
   background-repeat: repeat-y; }
 
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+html, body {
+  margin: 0px; }
+
 .logo {
   text-align: center; }
 
@@ -57,16 +67,21 @@ body {
   margin-right: auto;
   margin-bottom: 50px; }
   .nav ul {
-    display: flex;
-    justify-content: space-around;
     list-style: none; }
+    @media only screen and (min-width: 825px) {
+      .nav ul {
+        display: flex;
+        justify-content: space-around; } }
   .nav a {
     text-decoration: none; }
   .nav li:hover {
     color: white; }
-  .nav li {
-    display: inline;
-    width: calc(20% - 10px); }
+  @media only screen and (max-width: 824px) {
+    .nav li {
+      text-align: center; } }
+  @media only screen and (min-width: 825px) {
+    .nav li {
+      display: inline; } }
 
 .post {
   background-color: white;
