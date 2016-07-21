@@ -1,3 +1,4 @@
+
 @import 'components/index';
 @import 'base/index';
 @import 'layout/index';
@@ -8,9 +9,7 @@
 
 .nav {
   width: 60%;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+  @extend %center;
   margin-bottom: 50px;
   ul {
     @media only screen and (min-width: 825px) {
@@ -41,9 +40,7 @@
   opacity: .9;
   padding: 15px;
   width: 75%;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+  @extend %center;
   margin-bottom: 50px;
   border-radius: 10px;
   .blog-title {

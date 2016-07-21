@@ -43,6 +43,11 @@ li {
   font-size: 24px;
   color: #A5D8FF; }
 
+.nav, .post {
+  display: block;
+  margin-left: auto;
+  margin-right: auto; }
+
 body {
   background-image: url("./../img/stones.jpg");
   background-repeat: repeat-y; }
@@ -62,9 +67,6 @@ html, body {
 
 .nav {
   width: 60%;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
   margin-bottom: 50px; }
   .nav ul {
     list-style: none; }
@@ -88,9 +90,6 @@ html, body {
   opacity: .9;
   padding: 15px;
   width: 75%;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
   margin-bottom: 50px;
   border-radius: 10px; }
   .post .blog-title {
