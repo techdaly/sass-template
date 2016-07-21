@@ -1,7 +1,13 @@
+* {
+  font-family: 'Roboto Slab', serif;
+  font-size: 18px;
+  color: $color-light;
+}
+
 h1 {
   font-family: 'Galada', cursive;
   font-size: 4em;
-  color: $color-dark;
+  color: $neutral-light;
 }
 
 h2 {
@@ -34,8 +40,14 @@ h6 {
   color: $color-dark;
 }
 
-p{
+p {
   font-family: 'Roboto Slab', serif;
   font-size: 18px;
+  color: $color-med;
+}
+
+li {
+  font-family: 'Roboto Slab', serif;
+  font-size: 24px;
   color: $color-light;
 }
